@@ -150,6 +150,7 @@ h3 {
 .section-light-back {
   background-color: #FFFFFF;
   padding: 42px;
+  color: #7DB96F;
 }
 
 footer {
@@ -160,7 +161,7 @@ footer {
 }
 
 .section-light-back .cta{
-  filter: drop-shadow(0px 0px 5px #0000008a);
+  filter: drop-shadow(0px 0px 5px #0000002e);
 }
 
 footer p {
