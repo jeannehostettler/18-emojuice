@@ -17,9 +17,26 @@ header {
   padding: 30px;
 }
 
+p {
+  font-family: 'Quattrocento', serif;
+}
+
 .box-title {
   background-color: #ffffffde;
   padding: 20px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  background-color: #7DB96F;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 18px;
 }
 
 .section-light {
@@ -37,4 +54,19 @@ h2 {
   width: 25px;
   margin: auto;
   justify-content: center;
+}
+
+.section-green {
+  background-color: #7DB96F;
+  padding: 30px;
+}
+
+.cards {
+  background-color: white;
+  border-radius: 22px;
+}
+
+footer {
+  background-color: #FFFFFF;
+  padding: 30px;
 }
