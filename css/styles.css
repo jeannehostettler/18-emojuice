@@ -15,6 +15,7 @@ header {
   padding: 30px;
   border-top: 8px solid #7DB96F;
   padding: 30px;
+  max-width: 100%;
 }
 
 p {
@@ -24,6 +25,7 @@ p {
 .box-title {
   background-color: #ffffffde;
   padding: 20px;
+  margin: 10px;
 }
 
 .cta-container {
@@ -36,7 +38,7 @@ p {
   background-color: #7DB96F;
   border-radius: 15px;
   padding: 10px;
-  margin: 18px;
+  margin-bottom: 10px;
 }
 
 .section-light {
@@ -49,11 +51,15 @@ h2 {
   font-family: 'Maven Pro', sans-serif;
 }
 
-.fruits-line {
-  display: flex;
-  width: 25px;
+.fruits-line img{
+  width: 27px;
   margin: auto;
-  justify-content: center;
+}
+
+.fruits-line{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .section-green {
