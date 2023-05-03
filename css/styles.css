@@ -24,11 +24,17 @@ header {
 
 .section-light {
   background-color: #FFFFFF;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .fruits-line {
   display: flex;
-  flex-direction: row;
+  width: 25px;
+  margin: auto;
   justify-content: center;
-  width: 27px;
 }
