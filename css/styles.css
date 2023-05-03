@@ -55,7 +55,7 @@ header {
 
 .section-light {
   background-color: #FFFFFF;
-  padding: 96px 69px 98px 69px;
+  padding: 96px 60px 98px 60px;
   text-align: center;
 }
 
@@ -66,6 +66,12 @@ h2 {
   margin-bottom: 26px;
 }
 
+p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
 .section-green h2 {
   color: #FFFFFF;
 }
@@ -73,13 +79,7 @@ h2 {
 h3 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
-  margin-top: 39px;
-}
-
-p {
-  font-family: 'Quattrocento', serif;
-  font-size: 16px;
-  margin-bottom: 36px;
+  margin: 39px 0 0 38px;
 }
 
 .fruits-line img{
@@ -101,7 +101,13 @@ p {
 .cards {
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  margin-bottom: 39px;
+  filter: drop-shadow(1px 1px 10px black);
+}
+
+.cards p {
+  color: #0000008a;
+  margin: 0 0 36px 38px;
 }
 
 .banana-card {
@@ -125,10 +131,29 @@ p {
 }
 
 .cards img {
-  width: 63px;
+  width: 65px;
+  margin-left: 231px;
+}
+
+a {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.section-light-back {
+  background-color: #FFFFFF;
+  padding: 42px;
 }
 
 footer {
   background-color: #FFFFFF;
   padding: 30px;
+  color: #7DB96F;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
 }
