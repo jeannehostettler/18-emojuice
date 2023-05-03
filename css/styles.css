@@ -8,3 +8,26 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background-image: url(../img/background-header.webp);
+  background-size: cover;
+  padding: 30px;
+  border-top: 8px solid #7DB96F;
+  padding: 30px;
+}
+
+.box-title {
+  background-color: #ffffffde;
+  padding: 20px;
+}
+
+.section-light {
+  background-color: #FFFFFF;
+}
+
+.fruits-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
